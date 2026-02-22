@@ -1,16 +1,17 @@
-# Compiled class file
+# Compiled class file  
 *.class
 
-# Log file
+# Log file 
 *.log
+logs/
 
-# BlueJ files
+# BlueJ files 
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# Mobile Tools for Java (J2ME) 
 .mtj.tmp/
 
-# Package Files #
+# Package Files 
 *.jar
 *.war
 *.nar
@@ -19,6 +20,47 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# JVM crash logs 
 hs_err_pid*
 replay_pid*
+
+# Spring Boot / Maven 
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven wrapper logs
+.mvn/timing.properties
+
+# Gradle
+build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA 
+.idea/
+*.iml
+out/
+
+# OS Files (Mac/Windows junk)
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment & Local Config 
+.env
+.env.*
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+
+# Spring Boot Specific
+*.pid
+*.seed
+*.pid.lock
+spring.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
